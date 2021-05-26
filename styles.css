@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Pattaya&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.btn {
+  background: transparent;
+  padding: 0.4em 1.5em;
+  font-family: Pattaya, monospace;
+  font-size: 1.3rem;
+  color: white;
+}
+.btn:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+h1 {
+  text-align: center;
+  font-size: 5rem;
+  font-family: Pattaya, monospace;
+  color: #c1139e;
+}
+body {
+  background: linear-gradient(#a3bded, #6991c7);
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-around;
+}
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+.grid {
+  display: grid;
+  width: 30em;
+  height: 30em;
+  background-color: white;
+  margin: 2em auto;
+  border: 10px solid #c1139e;
+}
+.box {
+  border: 1px solid black;
+}
+
+@media (max-width: 700px) {
+  .grid {
+    width: 17em;
+    height: 17em;
+  }
+  .btn {
+    background: transparent;
+    padding: 0.4em 0.8em;
+    font-family: Pattaya, monospace;
+    font-size: 1.3rem;
+    color: white;
+  }
+}
