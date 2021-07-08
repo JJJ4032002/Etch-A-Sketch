@@ -41,7 +41,8 @@ body {
   border: 10px solid #c1139e;
 }
 .box {
-  border: 1px solid black;
+  border: 1px solid transparent;
+  transition-duration: 250ms;
 }
 
 @media (max-width: 700px) {
